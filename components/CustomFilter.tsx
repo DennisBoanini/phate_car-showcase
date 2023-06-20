@@ -2,7 +2,7 @@
 
 import { KeyValue } from '@/app/models/key-value.model'
 import { Listbox, Transition } from '@headlessui/react'
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useState } from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { updateSearchParam } from '@/utils'

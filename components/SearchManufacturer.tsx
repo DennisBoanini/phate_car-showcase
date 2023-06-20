@@ -3,7 +3,6 @@
 import { Dispatch, Fragment, SetStateAction, useState } from 'react'
 import { Combobox, Transition } from '@headlessui/react'
 import Image from 'next/image'
-import { Comparator } from 'semver'
 import { manufacturers } from '@/constants'
 
 type Props = {

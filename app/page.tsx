@@ -1,6 +1,6 @@
 import { CarCard, CustomFilter, Hero, SearchBar } from '@/components'
 import React from 'react'
-import { calculateCarRent, fetchCars } from '@/utils'
+import { fetchCars } from '@/utils'
 import { Car } from '@/app/models/car.model'
 import { fuels, yearsOfProduction } from '@/constants'
 import ShowMoreButton from '@/components/ShowMoreButton'
