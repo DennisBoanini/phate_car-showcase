@@ -17,9 +17,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   </button>
 )
 
-type Props = {}
-
-export default function SearchBar(props: Props) {
+export default function SearchBar() {
   const router = useRouter()
   const [manufacturer, setManufacturer] = useState<string>('')
   const [model, setModel] = useState<string>('')
